@@ -70,6 +70,10 @@ enable = false # enable/disable share globally
 showCategories = true # /categories/
 showTags = false # /tags/
 
+[[params.nav.custom]]
+title = "Book rec."
+url = "/book-rec"
+
 # [[params.nav.custom]]
 # title = "About"
 # url = "/about"
