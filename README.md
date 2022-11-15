@@ -2,6 +2,8 @@
 
 [![netlify status](https://api.netlify.com/api/v1/badges/2ef94a5a-c9b8-4376-bf1b-9e1aea1cb6bf/deploy-status)](https://app.netlify.com/sites/wesleyjrz/deploys)
 
+New content commits will be messaged as `content: add foo bar`.
+
 ### Dependencies
 
 - hugo
