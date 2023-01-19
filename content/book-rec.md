@@ -6,12 +6,22 @@ cover: "anime-girl-holding-book-and-computer.webp"
 draft: false
 ---
 
+## Table of contents
+
+- [Programming](#programming)
+
+---
+
 In this list, I will only add books that I've read (at least some parts) and
 that I've really enjoyed and recommend for everybody.
 
 There will be a short description for every item on the list.
 
+<div id="symptoms">
+
 ## Programming
+
+</div>
 
 If you want to learn programming, there's a lot of books out there, which may be
 a problem if you don't want to waste your precious time looking for good
