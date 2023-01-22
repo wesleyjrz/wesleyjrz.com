@@ -2,21 +2,28 @@
 
 [![netlify status](https://api.netlify.com/api/v1/badges/2ef94a5a-c9b8-4376-bf1b-9e1aea1cb6bf/deploy-status)](https://app.netlify.com/sites/wesleyjrz/deploys)
 
-New content commits will be messaged as `content: add foo bar`.
+## Dependencies
 
-### Dependencies
+- `hugo`
 
-- hugo
+## nix-shell
 
-### Build
+Nix shell is available. Just run it and all the commands will be available for
+you.
+
+```
+$ nix-shell
+```
+
+## Build
 
 ```
 $ hugo
 ```
 
-Files will be published into `./public` directory.
+Files will appear into the `./public` directory after the process has finished.
 
-### Test
+## Test
 
 ```
 $ hugo server
@@ -26,6 +33,6 @@ A local website will be available at `http://localhost:1313`.
 
 More information on [Hugo Official Documentation](https://gohugo.io/documentation).
 
-# License
+## License
 
 Released under the MIT License unless otherwise specified by license files in subfolders.
