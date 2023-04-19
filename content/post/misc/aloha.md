@@ -5,6 +5,7 @@ lastmod: 2022-11-14
 tags: [hello]
 categories: [misc]
 cover: "anime-girl-holding-book.webp"
+license: "CC BY 4.0 License"
 draft: false
 ---
 
