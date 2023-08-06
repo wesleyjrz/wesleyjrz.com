@@ -60,11 +60,11 @@ enable = false # enable/disable share globally
 	enable = true
 	avatar = "https://avatars.githubusercontent.com/u/60184588?v=4" # use my GitHub profile picture
 	name = "Wesley Jr."
-	bio = "Born self-taught, eclectic, future computer engineer, GNU/Linux devotee and open-source software supporter." # support markdown syntax
+	bio = "Eclectic, GNU/Linux devotee and free/libre software supporter. Studying to be a computer engineer 👨‍💻" # support markdown syntax
 	github = "wesleyjrz"
 	# docker = ""
 	# twitter = "wesleyjrz"
-	email = "wesleyjr2002@gmail.com"
+	email = "dev@wesleyjrz.com"
 
 [params.nav]
 showCategories = true # /categories/
