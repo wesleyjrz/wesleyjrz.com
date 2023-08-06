@@ -17,7 +17,7 @@ that I've really enjoyed and recommend for everybody.
 
 There will be a short description for every item on the list.
 
-<div id="symptoms">
+<div id="programming">
 
 ## Programming
 
