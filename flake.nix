@@ -1,14 +1,22 @@
 {
-  description = "My personal blog made with Hugo.";
+  description = "Hugo framework development environment.";
 
   inputs.flake-utils.url = "github:numtide/flake-utils";
 
   outputs = { self, nixpkgs, flake-utils }:
-    flake-utils.lib.eachDefaultSystem
-      (system:
-        let pkgs = nixpkgs.legacyPackages.${system}; in
-        {
-          devShells.default = import ./shell.nix { inherit pkgs; };
-        }
-      );
+    flake-utils.lib.eachDefaultSystem (system:
+      let pkgs = nixpkgs.legacyPackages.${system};
+      in {
+        devShell = pkgs.mkShell {
+          name = "hugo";
+          packages = with pkgs; [
+            hugo
+          ];
+          shellHook = ''
+            echo "🌏 Hugo Development Environment."
+
+            ./preview.sh --start
+          '';
+        };
+      });
 }
