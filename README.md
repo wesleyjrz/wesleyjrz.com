@@ -4,13 +4,12 @@
 
 - `hugo`
 
-## nix-shell
+## Nix develop
 
-Nix shell is available. Just run it and all the commands will be available for
-you.
+Nix development environment is available:
 
 ```
-$ nix-shell
+$ nix develop
 ```
 
 ## Build
@@ -24,10 +23,11 @@ Files will appear into the `./public` directory after the process has finished.
 ## Test
 
 ```
-$ hugo server
+$ ./preview.sh --start
 ```
 
-A local website will be available at `http://localhost:1313`.
+A local website will be available at `http://localhost:1313` and opened with
+your default browser.
 
 More information on [Hugo Official Documentation](https://gohugo.io/documentation).
 
