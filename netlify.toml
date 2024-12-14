@@ -1,9 +1,0 @@
-[build]
-	command = "hugo"
-	publish = "/public"
-	base ="/"
-
-[[redirects]]
-	from = "/*"
-	to = "/index.html"
-	status = 200

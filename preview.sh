@@ -5,7 +5,7 @@ extraArgs="--buildDrafts"
 
 start_server () {
 	set -e
-	hugo server ${extraArgs} -p ${defaultPort} "$(dirname "$0")"
+	hugo server ${extraArgs} -p ${defaultPort} "$(dirname "$0")" &
 	"$BROWSER" localhost:${defaultPort}
 	echo "🟢 Hugo server is up."
 }
