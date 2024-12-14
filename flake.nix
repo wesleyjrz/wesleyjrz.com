@@ -11,6 +11,7 @@
           name = "hugo";
           packages = with pkgs; [
             hugo
+            just
           ];
           shellHook = ''
             echo "🌏 Hugo Development Environment."
