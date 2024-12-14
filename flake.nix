@@ -14,8 +14,6 @@
           ];
           shellHook = ''
             echo "🌏 Hugo Development Environment."
-
-            ./preview.sh --start
           '';
         };
       });
