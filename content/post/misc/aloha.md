@@ -4,10 +4,10 @@ date: 2022-06-01
 lastmod: 2023-08-06
 tags: [hello]
 categories: [misc]
-cover: "anime-girl-holding-book.webp"
-license: "CC BY 4.0 License"
 draft: false
 ---
+
+![anime girl holding book](anime-girl-holding-book.webp)
 
 # Why this blog?
 

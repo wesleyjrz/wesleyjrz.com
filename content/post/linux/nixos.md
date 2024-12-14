@@ -4,10 +4,10 @@ date: 2023-08-06
 lastmod: 2023-08-06
 tags: [nix, nixos, distro]
 categories: [linux]
-cover: "emilia-with-distro-logos.webp"
-license: "CC BY 4.0 License"
 draft: false
 ---
+
+![emilia with distro logos](emilia-with-distro-logos.webp)
 
 ## Table of contents
 
@@ -223,3 +223,7 @@ version and much more.
 2. [Nix official documentation](https://nix.dev)
 3. [Nix Pills - A tutorial introduction into Nix](https://nixos.org/guides/nix-pills/pr01)
 4. [NixOS Manual](https://nixos.org/manual/nixos/stable)
+
+# License
+
+CC BY 4.0 License

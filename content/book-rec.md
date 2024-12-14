@@ -1,10 +1,10 @@
 ---
 title: "Book recommendations"
 lastmod: 2022-11-15
-readingTime: false
-cover: "anime-girl-holding-book-and-computer.webp"
 draft: false
 ---
+
+![anime girl holding book and computer](anime-girl-holding-book-and-computer.webp)
 
 ## Table of contents
 

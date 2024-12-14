@@ -1,8 +1,7 @@
 baseURL = "https://wesleyjrz.com"
 title = "Wesley Jr++"
-theme = "hugo-notepadium"
-copyright = "Copyright &copy 2022-current • Wesley Vieira Santos Jr."
-
+theme = "risotto"
+copyright = "Copyright © 2022-current • Wesley Vieira Santos Jr."
 languageCode = "en"
 defaultContentLanguage = "en"
 
@@ -13,67 +12,46 @@ enableRobotsTXT = true
 # Enable relativeURLs if your site hosted on GitHub.io
 relativeURLs = false
 
-# Enable Disqus
-# disqusShortname = "XXX"
-
 # Google Analytics
 # googleAnalytics = "UA-123-45"
 
 ignoreErrors = ["error-remote-getjson"]
 
-[markup.highlight]
-codeFences = true
-noClasses = false
+sectionPagesMenu = "main"
 
 [markup.goldmark.renderer]
 unsafe = true # enable raw HTML in Markdown
 
 [params]
-style = "dark" # light, dark, auto
-dateFormat = "Jan 02, 2006" # if unset, default is "2006-01-02"
-readingTime = true # show reading time after article date
-logo = "logo.png"
-slogan = "I use NixOS btw."
+noindex = false
 ipv6ready = false
 
-[params.comments]
-enable = false # enable/disable comments globally
+[params.theme]
+palette = "windows-95"
 
-[params.comments.utterances]
-# repo = "MetalBlueberry/MetalBlueberry.github.io" # enable comments with [utteranc.es](https://utteranc.es/)
+[params.about]
+title = "Wesley Jr."
+description = "An eclectic free software devotee and his journey through knowledge."
+logo_image = "https://avatars.githubusercontent.com/u/60184588?v=4" # use my GitHub profile picture
 
-[params.math]
-enable = false # load math globally
-use = "katex" # builtin: "katex", "mathjax"
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/wesleyjrz"
 
-[params.syntax]
-use = "none" # builtin: "prismjs", "hljs". "none" means Chroma
-theme = "github"
-darkTheme = "github-dark"
+[[params.socialLinks]]
+icon = "fa-solid fa-envelope"
+title = "Email"
+url = "mailto:dev@wesleyjrz.com"
 
-[params.share]
-enable = false # enable/disable share globally
-# addThisId = ""
-# inlineToolId = ""
+[menu]
 
-[params.profile]
-	enable = true
-	avatar = "https://avatars.githubusercontent.com/u/60184588?v=4" # use my GitHub profile picture
-	name = "Wesley Jr."
-	bio = "Eclectic, GNU/Linux devotee and free/libre software supporter. Studying to be a computer engineer 👨‍💻" # support markdown syntax
-	github = "wesleyjrz"
-	# docker = ""
-	# twitter = "wesleyjrz"
-	email = "dev@wesleyjrz.com"
+	[[menu.main]]
+		identifier = "books"
+		name = "Books"
+		url = "/book-rec"
 
-[params.nav]
-showCategories = true # /categories/
-showTags = false # /tags/
-
-[[params.nav.custom]]
-title = "Book rec."
-url = "/book-rec"
-
-# [[params.nav.custom]]
-# title = "About"
-# url = "/about"
+	[[menu.main]]
+		identifier = "about"
+		name = "About"
+		url = "/about"
