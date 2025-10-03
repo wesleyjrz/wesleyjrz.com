@@ -4,9 +4,9 @@
 
 - `hugo`
 
-## Nix develop
+## Development Environment
 
-Nix development environment is available:
+A Nix flake development environment is available:
 
 ```
 $ nix develop
@@ -15,21 +15,12 @@ $ nix develop
 ## Build
 
 ```
-$ hugo
+$ just
 ```
 
-Files will appear into the `./public` directory after the process has finished.
+Files will be available at `./public`.
 
-## Test
-
-```
-$ ./preview.sh --start
-```
-
-A local website will be available at `http://localhost:1313` and opened with
-your default browser.
-
-More information on [Hugo Official Documentation](https://gohugo.io/documentation).
+More information at [Hugo Official Documentation](https://gohugo.io/documentation).
 
 ## License
 
