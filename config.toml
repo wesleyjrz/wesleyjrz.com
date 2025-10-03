@@ -55,3 +55,7 @@ url = "mailto:dev@wesleyjrz.com"
 		identifier = "about"
 		name = "About"
 		url = "/about"
+
+[caches]
+	[caches.images]
+		dir = ':cacheDir/images'
