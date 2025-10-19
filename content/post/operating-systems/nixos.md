@@ -2,8 +2,8 @@
 title: "NixOS - My favourite linux distribution ever"
 date: 2023-08-06
 lastmod: 2023-08-06
-tags: [nix, nixos, distro]
-categories: [linux]
+tags: [Linux, Nix]
+categories: [Operating Systems]
 draft: false
 ---
 
@@ -223,7 +223,3 @@ version and much more.
 2. [Nix official documentation](https://nix.dev)
 3. [Nix Pills - A tutorial introduction into Nix](https://nixos.org/guides/nix-pills/pr01)
 4. [NixOS Manual](https://nixos.org/manual/nixos/stable)
-
-# License
-
-CC BY 4.0 License

@@ -17,7 +17,7 @@
           just
         ];
         shellHook = ''
-          echo "🌏 Hugo Development Environment."
+          echo "🌏 wesleyjrz.com"
         '';
       };
     });

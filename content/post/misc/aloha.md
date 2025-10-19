@@ -2,8 +2,8 @@
 title: "Aloha world!"
 date: 2022-06-01
 lastmod: 2023-08-06
-tags: [hello]
-categories: [misc]
+tags: []
+categories: [Miscellaneous]
 draft: false
 ---
 
