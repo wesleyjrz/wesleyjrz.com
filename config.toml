@@ -1,60 +1,60 @@
-baseURL = "https://wesleyjrz.com"
+baseURL = "https://wesleyjrz.com/"
 title = "Wesley Jr++"
-theme = "risotto"
+theme = "hugo-notepadium"
 copyright = "Copyright © 2022-current • Wesley Vieira Santos Jr."
+
 languageCode = "en"
 defaultContentLanguage = "en"
-
 hasCJKLanguage = false
 
 enableRobotsTXT = true
 
-# Enable relativeURLs if your site hosted on GitHub.io
-relativeURLs = false
-
-# Google Analytics
-# googleAnalytics = "UA-123-45"
-
-ignoreErrors = ["error-remote-getjson"]
-
-sectionPagesMenu = "main"
+# [services.googleAnalytics]
+# id = '' # Google tag ID
 
 [markup.goldmark.renderer]
 unsafe = true # enable raw HTML in Markdown
 
+[markup.highlight]
+codeFences = true
+noClasses = false
+
 [params]
-noindex = false
+style = "auto"
+logo = "/static/logo.png"
+slogan = "Free as in freedom"
+license = "CC BY 4.0"
 ipv6ready = false
 
-[params.theme]
-palette = "windows-95"
+[params.profile]
+enable = true
+avatar = "https://avatars.githubusercontent.com/u/60184588?v=4"
+name = "Wesley V. Santos Jr."
+bio = "An eclectic mind. Free software enthusiast."
+twitter = "wesleyjrz"
+github = "wesleyjrz"
+email = "dev@wesleyjrz.com"
 
-[params.about]
-title = "Wesley Jr."
-description = "An eclectic free software devotee and his journey through knowledge."
-logo_image = "https://avatars.githubusercontent.com/u/60184588?v=4" # use my GitHub profile picture
+[params.nav]
+showCategories = true
+showTags = true
 
-[[params.socialLinks]]
-icon = "fa-brands fa-github"
-title = "GitHub"
-url = "https://github.com/wesleyjrz"
+[params.syntax]
+use = "none"
+theme = "xcode"
+darkTheme = "xcode-dark"
 
-[[params.socialLinks]]
-icon = "fa-solid fa-envelope"
-title = "Email"
-url = "mailto:dev@wesleyjrz.com"
+[params.math]
+enable = true
+use = "katex"
 
-[menu]
+[[params.nav.custom]]
+title = "About"
+url = "/about"
 
-	[[menu.main]]
-		identifier = "books"
-		name = "Books"
-		url = "/book-rec"
-
-	[[menu.main]]
-		identifier = "about"
-		name = "About"
-		url = "/about"
+[[params.nav.custom]]
+title = "Books"
+url = "/books"
 
 [caches]
 	[caches.images]
